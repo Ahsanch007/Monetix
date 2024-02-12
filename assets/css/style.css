@@ -719,8 +719,133 @@ cursor: not-allowed;
 }
 
 
+/* privacy policy page  */
+.title-section{
+    padding: 30px 0px;
+}
+.description-section{
+    padding: 50px 0px;
+}
+
+
+@media(min-width:900px){
+
+
+.privacy-container{
+    max-width: 990px;
+    width: 100%;
+    margin: auto;
+}
+.description-container{
+    max-width: 826px;
+    width: 100%;
+    margin: auto;
+}
+
+}
+
+.privacy-container{
+    background-image: url('../img/grad-privacy.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.privacy-container h1{
+    font-size: 78px;
+    line-height: 84px;
+    font-weight: 400;
+    text-align: center;
+    overflow: hidden;
+}
+
+.detail p{
+    font-size: 18px;
+    font-size: 400;
+    line-height: 30px;
+}
+
+.typess{
+    padding: 50px 0px;
+}
+.typess h2{
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #232323;
+}
+
+.type-details{
+    padding: 30px 0px;
+}
+.type-desc h1{
+    font-size: 18px;
+    font-weight: 700;
+    color: #232323;
+    margin: 0px;
+}
+
+.type-desc p{
+    font-size: 18px;
+    font-size: 400;
+    line-height: 30px;
+}
+
+.type-desc{
+    max-width: 774px;
+    width: 100%;
+}
+
+
 
 @media (max-width: 776px) {
+
+
+    .privacy-container{
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .privacy-container h1{
+        font-size: 28px;
+        line-height: 32px;
+        font-weight: 400;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .description-container{
+        max-width: 100%;
+    }
+    .detail p{
+        font-size: 12px;
+        font-size: 400;
+        line-height: 22px;
+    }
+    .typess h2{
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 26px;
+        color: #232323;
+    }
+
+
+    .type-desc h1{
+        font-size: 14px;
+        font-weight: 700;
+        color: #232323;
+    }
+    .type-desc p{
+        font-size: 12px;
+        font-size: 400;
+        line-height: 22px;
+    }
+    .type-desc{
+        max-width: 240px;
+        width: 100%;
+    }
+
+
     .footer-logo {
         text-align: center;
     }
