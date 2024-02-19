@@ -693,7 +693,7 @@ label {
     border-bottom: 1px solid #D4EB45 !important; /* Change border color on focus */
   }
 input::placeholder{
-    color: #CDCDCD;
+    color: #000;
 }
 .submit-btn button{
     padding: 15px 60px;
