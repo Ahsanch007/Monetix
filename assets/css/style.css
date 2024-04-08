@@ -115,7 +115,7 @@ body {
 }
 
 .menu2 button {
-    width: 300px;
+    min-width: 300px;
     height: 60px;
     border: 1px solid #D4EB45;
     border-radius: 50px;
@@ -157,7 +157,7 @@ max-width: 692px;
 
 .ai-powered h1 {
     margin: 0 !important;
-    font-size: 70px;
+    font-size: 35px;
     font-weight: 500;
 }
 
@@ -190,7 +190,7 @@ max-width: 692px;
 }
 
 .start-monetizing button {
-    width: 300px;
+    min-width: 300px;
     height: 60px;
     border: 1px solid #D4EB45;
     border-radius: 50px;
@@ -529,7 +529,7 @@ text-align: center;
 }
 
 .enhance-button button {
-    width: 300px;
+    min-width: 300px;
     height: 60px;
     border: 1px solid #D4EB45;
     border-radius: 50px;
